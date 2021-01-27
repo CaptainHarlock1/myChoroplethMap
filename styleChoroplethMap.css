@@ -1,0 +1,35 @@
+html{
+    min-height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+
+#canvas {
+    min-width: 1200px;
+    min-height: 600px;
+}
+
+/*could make the tooltip volatile and float accordinly with mouseover but its easier on the eye with this static form I believe*/
+#tooltip {
+    visibility: hidden;
+    background-color: cornflowerblue;
+    margin: 2px;
+    padding: 5px;
+    color: rgb(244, 254, 255);
+    font-kerning: auto;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius:0.6vw;
+    border-style: solid;
+    border-width: 0.5vh;
+    border-color:rgb(174, 198, 241);
+    
+}
+
